@@ -1,0 +1,18 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "learning to write tests",
+  "main": "linkedList.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "kaya",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.4.2"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./src/LinkedList.js"
+  }
+}
